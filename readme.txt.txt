@@ -1,24 +1,6 @@
-helpful resources:
+# Bike Share Data
+Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
 
- • Pandas documentaion : 
-https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.day_name.html?highlight=dt%20hour
--helped me to understand some date related properties
--extracting day of week name with dt.day_name
--extracting hour from a date with dt.hour
+Thanks to the rise in information technologies, it is easy for a user of the system to access a dock within the system to unlock or return bicycles. These technologies also provide a wealth of data that can be used to explore how these bike-sharing systems are used.
 
- • programiz :
-https://www.programiz.com/python-programming/methods/list/index
--how to get index of an element
-
- • stack overflow :
-https://stackoverflow.com/questions/35268817/unique-combinations-of-values-in-selected-columns-in-pandas-data-frame-and-count
--controling precision of a float number
--understanding more about how dataframe.groupby works and using it to find unique combinations
-
- • also saw this video on youtube to understand input validation:
-https://www.youtube.com/watch?v=eF5mObNHeek&ab_channel=JoshuaBastean
-
- • sparkbyexample:
-https://sparkbyexamples.com/pandas/pandas-select-rows-by-index/
--Pandas Select Dataframe Rows by Index
-
+In this project, we will use data provided by a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
